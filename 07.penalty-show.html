@@ -1,0 +1,106 @@
+<html lang="en">
+    <head>
+        <title>Hybrid Mobile App Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset utf="8">
+        <!--font-awesome-css-->
+        <link rel="stylesheet" href="css/font-awesome.css"> 
+		<!--bootstrap-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<!--bxslider-->
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!--custom css-->
+		<link href="css/style.css" rel="stylesheet" type="text/css" >
+		<!--mobile css-->
+		<link rel="stylesheet" href="css/card.css">
+        <!--component-css-->
+		<!--default-js-->
+		<script src="js/jquery.min.js"></script>
+		<!--bootstrap-js-->
+		<script src="js/bootstrap.min.js"></script>
+		<!--mobile-js-->
+		<!--bxslider-js-->
+		<script src="js/jquery.bxslider.js"></script>
+		<!--font-embed-->
+    	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+
+	
+
+
+				<div class="page-screen">
+						<div class="app-bar-navigation row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 text-left">
+								<div class="app-bar-menu-icon"><a href="#"><span class="fa fa-angle-left"></span></a></div>
+							</div>
+							<div class="app-bar-title col-lg-6 col-md-6 col-sm-6 col-xs-8 text-center">
+								<div class="app-bar-title">Game Play</div>
+							</div>
+							<div class="app-bar-search col-lg-3 col-md-3 col-sm-3 col-xs-2 text-right">
+								<div class="app-bar-search">
+									<div class="switch">
+										<input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
+										<label for="cmn-toggle-4"></label>
+									</div>
+								</div>
+							</div>
+						</div>
+						  
+						
+						<div class="card-flip-section">
+							<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							  <div class="flipper">
+								<div class="front">
+								  <div class="card-front"></div>
+								</div>
+								<div class="back">
+								  <div class="card-back-top">47 <span>#</span></div>
+								  <div class="card-penalty-detail">
+									<div class="sub-heading">Steve Wonder</div>
+									<div class="paragraph">Your team's next shot must be taken eyes closed</div>
+								  </div>
+								  <div class="card-back-bottom">
+									<div class="rotate">47 <span>#</span></div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						</div>
+						
+						
+						<div class="bottom-float">
+							<button class="button-pick navigate" data-page-name="home-screen" data-page-trans="slide-in-from-left">Back to Game</button>
+						</div>
+						
+						
+					</div>
+
+					
+
+
+    </body>
+	
+	<script src="js/scripts.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				  auto: true,
+				  responsive: true,
+				  autoControls: false,
+				  controls: false,
+				  pager: true
+			});
+		});
+	</script>
+	<script type="text/javascript" src='js/card-script.js'></script>
+	<script>
+	$(document).ready(function(){
+		  animate_card(360);
+	});
+	</script>
+
+	
+</html>					

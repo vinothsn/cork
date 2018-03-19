@@ -1,0 +1,79 @@
+<html lang="en">
+    <head>
+        <title>Hybrid Mobile App Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset utf="8">
+        <!--font-awesome-css-->
+        <link rel="stylesheet" href="css/font-awesome.css"> 
+		<!--bootstrap-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<!--bxslider-->
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!--custom css-->
+		<link href="css/style.css" rel="stylesheet" type="text/css" >
+		<!--mobile css-->
+		<link rel="stylesheet" href="css/card.css">
+        <!--component-css-->
+		<!--default-js-->
+		<script src="js/jquery.min.js"></script>
+		<!--bootstrap-js-->
+		<script src="js/bootstrap.min.js"></script>
+		<!--mobile-js-->
+		<!--bxslider-js-->
+		<script src="js/jquery.bxslider.js"></script>
+		<!--font-embed-->
+    	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+
+
+				<div class="page-screen">
+						<div class="app-bar-navigation row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 text-left">
+								<div class="app-bar-menu-icon"><a href="#"><span class="fa fa-angle-left"></span></a></div>
+							</div>
+							<div class="app-bar-title col-lg-6 col-md-6 col-sm-6 col-xs-8 text-center">
+								<div class="app-bar-title">Add Team</div>
+							</div>
+							<div class="app-bar-search col-lg-3 col-md-3 col-sm-3 col-xs-2 text-right">
+								<div class="app-bar-search"><a href="#"><span class="fa fa-search"></span></a></div>
+							</div>
+						</div>
+						  
+						<div class="app-add-team">
+							<div class="label-text">Team Name</div>
+							<div class="label-input"><input type="text" value="" placeholder="Team Name A"></div>
+							<div class="label-text">Team Name</div>
+							<div class="label-input"><input type="text" value="" placeholder="Team Name B"></div>
+							<div class="label-button"><button class="navigate" data-page-name="game-play-board" data-page-trans="slide-in-from-right">Start Game</button></div>
+						</div>  
+					</div>
+
+					
+
+
+    </body>
+	
+	<script src="js/scripts.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				  auto: true,
+				  responsive: true,
+				  autoControls: false,
+				  controls: false,
+				  pager: true
+			});
+		});
+	</script>
+	<script type="text/javascript" src='js/card-script.js'></script>
+	<script>
+	$(document).ready(function(){
+		  animate_card(360);
+	});
+	</script>
+
+	
+</html>					
